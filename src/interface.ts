@@ -1,11 +1,11 @@
-interface Zero {}
+type Zero = {};
 
 interface Single {
-  f1: string
+	f1: string;
 }
 
 interface Multi {
-  id: number
-  name: string
-  email: string
+	id: number;
+	name: string;
+	email: string;
 }

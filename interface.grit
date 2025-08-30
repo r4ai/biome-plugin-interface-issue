@@ -1,0 +1,3 @@
+`interface $name { $body }` where {
+	register_diagnostic(span=$name, severity="warn", message="found interface")
+}

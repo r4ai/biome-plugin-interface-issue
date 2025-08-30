@@ -1,12 +1,13 @@
 {
-  "name": "biome-plugin-interface",
-  "type": "module",
-  "private": true,
-  "devDependencies": {
-    "@biomejs/biome": "2.2.2",
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
-  }
+	"name": "biome-plugin-interface",
+	"type": "module",
+	"private": true,
+	"devDependencies": {
+		"@biomejs/biome": "2.2.2",
+		"@getgrit/cli": "0.1.0-alpha.1743007075",
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	}
 }
