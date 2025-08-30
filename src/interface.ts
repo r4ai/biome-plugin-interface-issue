@@ -1,4 +1,4 @@
-type Zero = {};
+interface Zero {}
 
 interface Single {
 	f1: string;
