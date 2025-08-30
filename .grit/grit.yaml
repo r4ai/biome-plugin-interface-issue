@@ -1,0 +1,8 @@
+version: 0.0.1
+patterns:
+  - name: github.com/getgrit/stdlib#*
+  - name: interface
+    body: |
+      `interface $name { $body }` where {
+        log(message="found interface", variable=$name)
+      }
